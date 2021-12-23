@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pagina contatti Epicode School">
+
+    <!-- Bootstrap CSS + miei CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="assets/css/stile.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <title>Epicode - Contatti</title>
+  </head>
+  <body>
+    <!-- JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- header con logo e barra di navigazione -->    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbordo" style="margin-bottom: 5%;"> 
+              <div class="container">
+                <a class="navbar-brand" href="home.html">
+                  <img src="assets/images/logo.png" alt="logo Epicode" width="auto" height="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active">
+                       <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="chisiamo.html">Chi siamo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contatti.html">Contatti</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link btn bg-info bg-gradient" href="mailto:info@epicode.it" role="button" style="color: whitesmoke;">Registrati</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </nav>
+      </header>
+
+
+      <main>
+
+    <!-- prima colonna del container: form -->
+   
+        <div class="container" id="form">
+            <div class="row">
+              <div class="col-sm" style="text-align: center;" id="contattih1">
+                <h1> Contatti</h1>
+              </div>
+            </div>    
+              <div class="row">    
+                <div class="col-sm" id="colonnaform">     
+                <div class="input-group mb-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Nome e cognome">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Email">
+                   </div>
+                <div class="input-group mb-3">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Oggetto">
+                </div>
+                <div class="input-group mb-3">
+                    <textarea class="form-control" aria-label="With textarea" placeholder="Scrivi il tuo messaggio"></textarea>
+                </div>
+               </div>
+               <div><button type="button" class="btn btn-info bg-info bg-gradient" id="inviamessaggio"><a href="#">Invia il tuo messaggio</a></button></div>
+            </div>
+            </div>
+<!-- seconda colonna del container: contatti -->
+            <div class="col-sm" id="colonnacontatti">
+                <h4>Sede formativa</h4>
+                <address> Via Appia 1 <br>
+                    00100 Roma (RM) <br>
+                    <br>
+                    <a href="mailto:info@epicode.school">info@epicode.school</a>
+                    <br>
+                    +39 0612345956
+                </address>
+                <h4>Lavora con noi</h4>
+                    <p>Per poterti candidare ad un ruolo da docente invia il tuo cv a <a href="mailto:job@epicode.school">job@epicode.school</a> </p>                   
+            </div>
+        </div>
+        </div>
+
+        </main>
+
+<!-- footer con contatti e social -->
+
+      <footer>
+        <div class="row" id="bloccofooter">
+            <div class="col-sm" id="contatti">
+                <p>Chi siamo</p>
+                <small>Epicode School nasce con l'obiettivo di rivoluzionare <br> la formazione in ambito tech</small>
+            </div>
+            <div class="col-sm">
+                <p>Ti piace ciò che vedi? Condividilo con<br>i tuoi amici!</p>
+                <div id="social">
+                  <a href="https://www.facebook.com/epicodeschool/" target="blank"><i class="fab fa-facebook-f"></i></a>&nbsp;
+                  <a href="https://www.linkedin.com/company/epicodeschool/" target="blank"><i class="fab fa-linkedin-in"></i></a>&nbsp;
+                  <a href="https://twitter.com/EpicodeSchool" target="blank"><i class="fab fa-twitter"></i></a>&nbsp;
+                </div>
+                <br>
+                <br>
+                <small>&copf; 2021 Epicode Web Developer School</small>
+            </div>
+            <div class="col-sm">
+                <label for="exampleInputEmail1" class="form-label">Iscriviti alla nostra newsletter</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Inserisci qui il tuo indirizzo email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary bg-info bg-gradient " type="button">Va bene!</button>
+                    </div>
+                  </div>
+            </div>
+            </div>
+    </footer>
+  </body>
+</html>

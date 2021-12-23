@@ -1,0 +1,311 @@
+/* CSS per la home + regole in comune con le altre pagine */
+body{
+    margin-right: 0%;
+}
+
+
+ #testobanner h1{
+    color: whitesmoke;
+    margin-left: 10%;
+    text-shadow: 1px 1px 2px #000000;
+}
+.white-text-container{
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+    margin-right: 0px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 15% 0;
+    margin-top: 2%;
+
+}
+.white-text-container p{
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+.navbar-brand{
+    margin-left: 5%;
+}
+
+.navbar-nav {
+    margin-right: 5%;
+}
+
+#colonna1, #colonna2, #colonna3, #colonna0, #ultimariga, #bloccofooter{
+    margin: 5% 3% 3% 3%;
+    
+}
+#colonna1 p, #colonna2 p, #colonna3 p{
+    text-align: left;
+}
+
+
+#bottoneinfo{
+    margin-left: 10%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn{
+    color: whitesmoke;
+}
+
+
+a:hover,  .btn:hover, a.nav-link:hover{
+    color: black;
+}
+
+.background-color-container {
+    background-color: #0c0633;
+    padding: 60px 0;
+    color: whitesmoke;
+}
+
+#scrivici{
+    text-align: center;
+    margin-left: 0%;
+}
+
+#contatti{
+  
+    justify-content: space-between;
+}
+
+.fa-comment:before , .fa-location-arrow::before, .fa-users::before{
+    color: rgb(211,58,49);
+    font-size: 2em;
+
+}
+.fa-check-circle:before {
+font-size: 0.6em;
+}
+
+footer{
+    border-top: 0.5px black dashed;
+}
+
+#social{
+    text-align: left;
+}
+
+.fa-check-circle{
+    color:  rgb(211,58,49);
+}
+.fa-facebook-f::before, .fa-linkedin-in::before, .fa-twitter::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+    font-size: 1rem;
+    width: 30px;
+    height: 30px;
+    color: grey;
+}
+/* CSS per la pagina chi siamo + regole in comune con le altre pagine */
+
+#navbordo{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.582);
+    
+    
+}
+#rigacorsi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+  
+}
+
+#testochisiamo{
+    background-color: white;
+    padding: 60px 0;
+    color: black;
+    margin-top: 5%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#testochisiamo h1{
+    text-align: center;
+}
+
+#testochisiamo p{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+
+#chisiamocard{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+#corsobase{
+    background-color:rgb(174, 246, 247);
+    font-style: italic;
+    transform: skewX(-10deg);
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 52px 20px;
+    text-align: center;
+ 
+  
+}
+
+#corsointermedio{
+    background-color:rgb(235, 76, 79);
+    font-style: italic;
+    transform: skewX(-10deg);
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 52px 20px;
+    text-align: center;
+    
+
+}
+#corsofull{
+    background-color:rgb(240, 228, 118);
+    font-style: italic;
+    transform: skewX(-10deg);
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 52px 20px;
+    text-align: center;
+}
+
+ #testocorsointermedio, #testocorsofull{
+  
+    background-color: rgb(246, 245, 245);
+    margin: 0px 0px 0px 0px;
+    padding: 30px 12px 80px 12px;
+    text-align: left;
+   
+ 
+}
+#testocorsobase{
+    background-color: rgb(246, 245, 245);
+    margin: 0px 0px 0px 0px;
+    padding: 30px 12px 80px 12px;
+    text-align: left;
+}
+
+
+.card{
+    border: none;
+}
+
+.fa-check{
+    color: red;
+}
+
+.iscriviti{
+align-items: baseline;
+}
+/*media query per la pagina chi siamo*/
+
+@media only screen and (max-width: 800px) {
+    #rigacorsi, .col{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+  }
+
+  #corsobase{
+    resize: both;
+    width: 100%;
+      order: 1;
+  }
+
+  #testocorsobase{
+      order: 2;
+      width: 100%;
+  
+      
+  }
+
+  #corsointermedio{
+      order: 3;
+      width: 100%;
+   
+      
+  }
+  #testocorsointermedio{
+      order: 4;
+      width: 100%;
+   
+  }
+
+  #corsofull{
+      order: 5;
+      width: 100%;
+    
+      
+  }
+
+  #testocorsofull{
+      order: 6;
+      width: 100%;
+  
+  }
+}
+
+/* CSS per la pagina Contatti */
+
+#contattih1{
+    margin-bottom: 5%;
+}
+
+#form{
+    margin-top: 6%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#colonnaform{
+    margin-left: 10%;
+    margin-right: 5%;
+
+}
+
+address a, .col-sm a{
+    text-decoration: none;
+    color: rgb(61, 60, 67);
+}
+
+#iscriviti{
+    color: whitesmoke;
+}
+
+#inviamessaggio a{
+    color: whitesmoke;
+}
+
+#inviamessaggio a:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    #contattih1, #colonnacontatti{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        justify-content: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
